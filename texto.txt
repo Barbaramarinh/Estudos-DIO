@@ -1,0 +1,71 @@
+ Entidades de pacote ;
+
+
+ Reserva de classe  pública {
+     string  privada sobrenome ;
+     string  privada nome ;
+     preço total flutuante  privado ;
+     depósito booleano  privado pago ;
+     datas reservadas de BookingDates  privadas ;
+     necessidades adicionais de String  privada ;
+
+    Public  Booking ( String  firstName , String  lastName , float  totalPrice , boolean  depositPaid , BookingDates  bookingDates , String  adicionaisNeeds ) {
+        isso . primeironome = primeiroNome ;
+        isso . sobrenome = sobrenome ;
+        isso . preçototal = Preçototal ;
+        isso . deposito pago = deposito pago ;
+        isso . datasdereserva = datasdereserva ;
+        isso . necessidades adicionais = necessidades adicionais ;
+    }
+
+    public  float  getTotalprice () {
+        retornar  preço total ;
+    }
+
+    public  void  setTotalprice ( float  totalprice ) {
+        isso . preço total = preço total ;
+    }
+
+    public  boolean  getDepositpaid () {
+        devolução  de depósito pago ;
+    }
+
+    public  void  setDepositpaid ( boolean  depositpaid ) {
+        isso . depósito pago = depósito pago ;
+    }
+
+    public  String  getAdditionalneeds () {
+        retornar necessidades  adicionais ;
+    }
+
+    public  void  setAdditionalneeds ( String necessidades  adicionais ) {
+        isso . necessidades adicionais = necessidades adicionais ;
+    }
+
+    public  BookingDates  getBookingdates () {
+         datas de reserva de retorno ;
+    }
+
+    public  void  setBookingdates ( BookingDates  bookingdates ) {
+        isso . bookingdates = bookingdates ;
+    }
+
+    public  String  getLastname () {
+        retornar  sobrenome ;
+    }
+
+    public  void  setLastname ( String  lastname ) {
+        isso . sobrenome = sobrenome ;
+    }
+
+    public  String  getFirstname () {
+        retornar  primeiro nome ;
+    }
+
+    public  void  setFirstname ( String  firstname ) {
+        isso . primeironome = primeironome ;
+    }
+
+
+
+}
